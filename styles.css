@@ -1,0 +1,37 @@
+body {
+  font-family: "Prompt", sans-serif;
+  font-weight: 400;
+}
+
+.btn {
+  border-radius: 2rem 2rem 1rem 1rem;
+}
+
+.btn-highlight {
+  background-color: #fbe0dc;
+}
+
+.hero-banner {
+  border-radius: 2rem 2rem 1rem 1rem;
+}
+
+.our-special .nav-link {
+  color: rgba(0, 0, 0, 0.651);
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.our-special .nav-link.active {
+  color: #f7c531;
+  border-bottom: 1px solid #f7c531;
+}
+
+.img-box {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
+}
