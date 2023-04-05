@@ -35,3 +35,59 @@ body {
   overflow: hidden;
   margin-right: 10px;
 }
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li .nav-link {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 400;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.serve-block .btn {
+  width: 38px;
+  height: 38px;
+  line-height: 38px;
+  padding: 0;
+  border-color: #830a43;
+}
+
+.serve-block .btn.active {
+  background-color: #830a43;
+  color: #fff;
+}
+
+.btn-add-to-cart {
+  background-color: #830a43;
+  color: #fff;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.product-reviews .nav {
+  width: max-content;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.product-reviews .nav-link {
+  color: rgba(0, 0, 0, 0.5);
+  padding: 0 0 10px 0;
+  margin: 0 1rem;
+}
+
+.product-reviews .nav-link.active {
+  color: rgba(0, 0, 0, 0.8);
+  border-bottom: 3px solid #830a43;
+}
+
+.product-reviews .img-box {
+  width: 120px;
+  height: 120px;
+  margin-right: 20px;
+}
